@@ -31,6 +31,8 @@ public class Manual extends javax.swing.JFrame {
         exitTxt = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setUndecorated(true);
+        setResizable(false);
 
         jPanel1.setBackground(new java.awt.Color(254, 254, 254));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -232,10 +234,6 @@ public class Manual extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel btnInicio;
-    private javax.swing.JPanel btnReg;
-    private javax.swing.JPanel btnReg1;
-    private javax.swing.JLabel btnRegText;
-    private javax.swing.JLabel btnRegText1;
     private javax.swing.JPanel exitBtn;
     private javax.swing.JLabel exitTxt;
     private javax.swing.JPanel header;
